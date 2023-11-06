@@ -1,0 +1,24 @@
+{
+  "private": true,
+  "author": "jinguoqiang <jinguoqiang.jax@bytedance.com>",
+  "scripts": {
+    "dev": "umi dev",
+    "build": "umi build",
+    "postinstall": "umi setup",
+    "setup": "umi setup",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "@ant-design/pro-components": "^2.6.35",
+    "@emotion/css": "^11.11.2",
+    "antd": "^5.11.0",
+    "axios": "^1.6.0",
+    "umi": "^4.0.87",
+    "umi-request": "^1.4.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.33",
+    "@types/react-dom": "^18.0.11",
+    "typescript": "^5.0.3"
+  }
+}
